@@ -1,0 +1,6 @@
+func main:
+  t1 = load &x
+  t2 = add t1, 5
+  store t2, &x
+  call print, t2
+  ret 0

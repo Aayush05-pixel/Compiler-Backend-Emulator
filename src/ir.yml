@@ -1,0 +1,10 @@
+instructions:
+  - label: BB1
+    code:
+      - a = b + c
+      - if a > 0 goto BB2
+      - d = a - 1
+  - label: BB2
+    code:
+      - e = d * 2
+      - f = e + 3
